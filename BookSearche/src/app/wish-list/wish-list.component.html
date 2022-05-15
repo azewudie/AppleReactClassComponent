@@ -1,0 +1,8 @@
+<p>wish-list works!</p>
+
+<ul>
+  <li *ngFor="let wish of wishlist">
+    <span>{{ wish.bookname }} </span>
+    <button (click)="deleteWish(wish.id)">delete</button>
+  </li>
+</ul>

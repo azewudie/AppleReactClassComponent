@@ -1,0 +1,14 @@
+<p>book-list works!</p>
+<ul>
+  <li *ngFor="let book of booklist$ | async" (click)="addToWish(book.id)">
+    <div id="book-shell-wrapper">
+      <img src="{{ book.thumbnail }}" alt="" />
+      <h1>{{ book.bookName }}</h1>
+      <h3>Book ID:{{ book.id }}</h3>
+      <h3>Authors: {{ book.authors }}</h3>
+      <h3>Publisher: {{ book.publisher }}</h3>
+      <h3>Publish Date:{{ book.publishedDetails }}</h3>
+      <p><span>Description:</span> {{ book.description }}</p>
+    </div>
+  </li>
+</ul>

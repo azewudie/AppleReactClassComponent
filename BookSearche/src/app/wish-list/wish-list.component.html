@@ -2,7 +2,7 @@
 
 <ul>
   <li *ngFor="let wish of wishlist">
-    <span>{{ wish.bookname }} </span>
+    <span>{{ wish.bookName }} </span>
     <button (click)="deleteWish(wish.id)">delete</button>
   </li>
 </ul>

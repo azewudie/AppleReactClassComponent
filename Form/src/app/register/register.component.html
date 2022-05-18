@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <h6>May 18, 2022</h6>
+    <div class="first-wrapper">
+      <section id="first-section-wrapper">
+        <header class="title-wrapper">
+          <h2>Ready to take a free trail?</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Repudiandae quis distinctio aperiam impedit nisi quam esse, repellat
+            suscipit dolorem placeat saepe aut, rem nemo, culpa quae quos eius
+            ipsam. Explicabo.
+          </p>
+        </header>
+
+        <section class="register-wrapper">
+          <div class="register-internal-wrapper">
+            <h3>sign up for a free account</h3>
+            <form (ngSubmit)="onSubmit()">
+              <div id="userName-wrapper">
+                <input
+                  type="text"
+                  FormControlFname="firstName"
+                  placeholder="First name"
+                />
+                <input
+                  id="lastName-wrapper"
+                  type="text"
+                  FormControlLname="lastName"
+                  placeholder="Last name"
+                />
+              </div>
+              <div id="email-wrapper">
+                <input
+                  type="email"
+                  FormControlEmail="email"
+                  placeholder="Email address"
+                />
+              </div>
+
+              <div id="password-wrapper">
+                <input
+                  type="password"
+                  FormControlEmail="password"
+                  placeholder="Create password"
+                />
+              </div>
+
+              <button id="submit-wrapper" type="submit">Register</button>
+            </form>
+          </div>
+        </section>
+      </section>
+    </div>
+    <section class="information-wrapper">
+      <div class="information-internal-wrapper">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Et blanditiis
+          id at suscipit doloribus omnis pariatur consequuntur excepturi, quas
+          debitis minima quam rem ea eligendi sapiente, esse error! Cum,
+          consequatur.
+        </p>
+        <button type="submit">Join Today</button>
+      </div>
+    </section>
+
+    <section class="LInformation-wrapper">
+      <div class="internal-LInformation-wrapper">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Et blanditiis
+          id at suscipit doloribus omnis pariatur consequuntur excepturi, quas
+          debitis minima quam rem ea eligendi sapiente, esse error! Cum,
+          consequatur.
+        </p>
+        <div id="button-wrapper">
+          <button id="join-wrapper" type="submit">Join Today</button>
+          <button id="submit-wrapper" type="submit">Contact US</button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

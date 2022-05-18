@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  overflow: hidden;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  overflow: auto;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #e5e5e5;
+  h6 {
+    display: flex;
+    justify-content: end;
+    font-weight: 600;
+    font-family: "Courier New", Courier, monospace;
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+  .first-wrapper {
+    width: 100%;
+    #first-section-wrapper {
+      background-color: #ffffff;
+      height: 550px;
+      margin: 15px 40px 35px 35px;
+      text-align: center;
+      .title-wrapper {
+        padding: 40px;
+        h2 {
+          display: flex;
+          justify-content: center;
+          text-align: center;
+          font-size: 1.2rem;
+          line-height: 4rem;
+          display: block;
+          margin-left: 47px;
+        }
+        p {
+          display: flex;
+          justify-content: center;
+          text-align: center;
+          font-size: 1 rem;
+          padding-left: 100px;
+          padding-right: 100px;
+        }
+      }
+    }
+  }
+
+  .register-wrapper {
+    background-color: #ffffff;
+    border: thin solid black;
+    width: 400px;
+    height: 250px;
+    margin: 50px 35px 20px 400px;
+    h3 {
+      margin: 20px 20px 20px 47px;
+      display: flex;
+      justify-content: space-between;
+      text-align: center;
+    }
+    #userName-wrapper {
+      padding: 10px;
+      #lastName-wrapper {
+        margin-left: 10px;
+      }
+    }
+    #email-wrapper input {
+      width: 300px;
+    }
+    #email-wrapper {
+      padding: 10px 0;
+    }
+    #password-wrapper input {
+      width: 300px;
+    }
+    #password-wrapper {
+      padding: 10px 0;
+    }
+
+    #submit-wrapper {
+      background-color: #18a0fb;
+      width: 100px;
+      height: 30px;
+      display: block;
+      margin-left: 47px;
+      color: white;
+      border: none;
+    }
+  }
+  .information-wrapper {
+    background-color: #e5e5e5;
+    width: 100%;
+    .information-internal-wrapper {
+      margin: 15px 35px 35px 35px;
+      height: 100px;
+      background-color: #ffffff;
+      p {
+        margin: 40px;
+        float: left;
+        width: 700px;
+      }
+      button {
+        background-color: #18a0fb;
+        width: 100px;
+        height: 30px;
+        margin: 40px;
+        color: white;
+        border: none;
+      }
+    }
+  }
+  .LInformation-wrapper {
+    background-color: #e5e5e5;
+    width: 100%;
+    .internal-LInformation-wrapper {
+      margin: 15px 35px 35px 35px;
+      height: 100px;
+      background-color: #ffffff;
+    }
+    p {
+      margin: 40px;
+      float: left;
+      width: 700px;
+    }
+    #button-wrapper {
+      padding: 40px 40px 60px;
+      button {
+        border: none;
+      }
+      #join-wrapper {
+        background-color: #18a0fb;
+        margin-right: 20px;
+        width: 100px;
+        height: 30px;
+        color: white;
+      }
+      #submit-wrapper {
+        border: 2px solid #18a0fb;
+        color: #18a0fb;
+        margin-left: 20px;
+        width: 100px;
+        height: 30px;
+      }
+    }
+  }
+}

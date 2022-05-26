@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    overflow: hidden;
+    height: 100%;
+}
+body{
+    overflow: auto;
+    height: 100;
+}
+.headTitle{
+    margin: auto;
+    padding: auto;
+    display: block;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.first-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 10px;
+        width: 40%;
+        height: 200px;
+        h3, p {
+            width: 100%;
+            margin: 20px 20px;
+        }
+        button{
+            width: 50px;
+            height: 50px;
+            color: white;
+        }
+    }
+}
+// .first-wrapper{
+//     display: flex;
+//     justify-content: space-between;
+//     flex-direction: row;
+//     margin: 40px 300px;
+//     padding: 10px;
+//     line-height: 2rem;
+//     flex: 50%;
+//     .first-text-left-wrapper{
+//         width: 200px ;
+//         height: auto;
+//         #blue{
+//             width: 50px;
+//             height: 50px;
+//             background-color: blue;
+//             color: white;
+//         }
+//     }
+//     .first-text-right-wrapper{
+//         width: 200px ;
+//         height: auto;
+//         #black{
+//             width: 50px;
+//             height: 50px;
+//             background-color: black;
+//             color: white;
+//         }
+//     }
+// }
+// .second-wrapper{
+//     display: flex;
+//     justify-content: space-between;
+//     flex-direction: row;
+//     margin: 40px 300px;
+//     padding: 10px;
+//     line-height: 2rem;
+
+// .second-text-left-wrapper{
+//     width: 200px ;
+//     height: auto;
+//     #red{
+//         width: 50px;
+//         height: 50px;
+//         background-color: red;
+//         color:black;
+//     }
+// }
+// .second-text-right-wrapper{
+//     width: 200px ;
+//     height: auto;
+//     #green{
+//         width: 50px;
+//         height: 50px;
+//         background-color: green;
+//         color: white;
+//     }
+// }
+    
+// }
+@media(max-width :700px) {
+    .first-wrapper{
+        display: block;
+        margin: 40px 60px;
+        padding: 10px;
+    }
+    .second-wrapper{
+        display: block;
+        margin: 40px 60px;
+        padding: 10px;
+    }
+    
+}

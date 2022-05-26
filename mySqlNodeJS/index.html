@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/styles.css" />
+  </head>
+  <body>
+    <div>
+      <form action="http://localhost:4000/addProduct" method="post">
+        <label for="productId">product ID:</label><br />
+        <input type="text" id="productId" name="productId" /><br />
+        <label for="productName">product name :</label><br />
+        <input type="text" id="productName" name="productName" /><br /><br />
+        <label for="productUrl">product URl:</label><br />
+        <input type="text" id="productUrl" name="productUrl" /><br />
+        <!-- section2 -->
+        <label for="productDiscrption">product Discretion:</label><br />
+        <textarea name="productDiscretion" id="productDiscrption"></textarea>
+        <br />
+        <label for="productBriefDiscrption">product Brief Discretion:</label
+        ><br />
+        <textarea
+          name="productBriefDiscretion"
+          id="productBriefDiscrption"
+        ></textarea
+        ><br />
+        <label for="productImage">product image:</label><br />
+        <textarea name="productImage" id="productImage"> </textarea>
+        <br />
+        <label for="productLink">product link:</label><br />
+        <textarea name="productLink" id="productLink"></textarea><br />
+
+        <!-- section 3 -->
+        <label for="productStratePrice">product Start price:</label><br />
+        <input
+          type="number"
+          id="productStartPrice"
+          name="productStartPrice"
+        /><br />
+
+        <label for="productPriceRange">product price range :</label><br />
+        <input
+          type="number"
+          id="productPriceRange"
+          name="productPriceRange"
+        /><br />
+        <!-- section 4 -->
+        <label for="productUser">product User:</label><br />
+        <input type="text" id="productUser" name="productUser" /><br />
+        <label for="productUserPassword">product user password :</label><br />
+        <input
+          type="password"
+          id="productUserPassword"
+          name="productUserPassword"
+        /><br /><br />
+
+        <button type="submit" value="Submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+.Epic-wrapper {
+  height: 580px;
+  width: 100%;
+}
+.Epic-outside-wrapper {
+  margin: 5px;
+  height: 580px;
+  width: 100%;
+  background-image: url("./Epic-Images/epicImage.jpg") !important;
+}
+.youtube-wrapper {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 580px;
+  width: 100%;
+}

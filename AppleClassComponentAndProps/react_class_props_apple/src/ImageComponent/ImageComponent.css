@@ -1,0 +1,7 @@
+.image-wrapper {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 250px;
+  width: 100%;
+}

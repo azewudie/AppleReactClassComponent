@@ -1,0 +1,28 @@
+/* Header Style */
+
+.nav-item a {
+  color: #06c;
+}
+Ul-wrapper {
+  margin-left: 25px;
+  /* padding-left: 100px; */
+}
+.link-image-wrapper img {
+  max-width: 100%;
+}
+.nav-item {
+  text-align: left !important;
+  padding: 4px 0;
+  border-bottom: 1px solid #4b4b4b;
+}
+.Header-Link_wrapper {
+  color: white !important;
+}
+@media (min-width: 768px) {
+  /*Nav bar*/
+  .nav-item {
+    text-align: center !important;
+    padding: 0;
+    border-bottom: 0px;
+  }
+}

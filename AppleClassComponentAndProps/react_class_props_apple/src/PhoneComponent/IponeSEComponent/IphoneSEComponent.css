@@ -1,0 +1,46 @@
+.IphoneSE-wrapper {
+  padding-top: 50px;
+  background-color: #fbfbfd;
+  line-height: 20px;
+}
+.SeAlert-wrapper {
+  font-size: 3rem;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: black;
+}
+
+.IphoneSeTitle-Wrapper {
+  font-size: 1.2rem;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: black;
+}
+.IphoneSeDescription-Wrapper {
+  font-size: 1rem;
+  font-weight: 200;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: black;
+  opacity: 0.8;
+  line-height: 10px;
+}
+.IphoneSeImage-wrapper {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.IphoneSeImage-wrapper img {
+  width: 12%;
+  height: 12%;
+}
+.Learn-wrapper {
+  padding-top: 0px;
+  margin-top: 0px;
+  line-height: 10px;
+}

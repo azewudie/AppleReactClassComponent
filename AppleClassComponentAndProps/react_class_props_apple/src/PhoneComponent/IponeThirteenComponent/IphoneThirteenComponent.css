@@ -1,0 +1,29 @@
+.IphoneThirteen-wrapper {
+  background-color: #fbfbfd;
+  /* background-image: url("./Iphone13-Images/IphoneSmall.jpg") !important;
+  height: 580px;
+  width: 100%; */
+}
+.Tittle-wrapper {
+  font-size: 3rem;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: black;
+}
+.Description-wrapper {
+  font-size: 1.5rem;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: black;
+  opacity: 0.8;
+}
+/* @media (min-width: 768px) {
+  .IphoneThirteen-wrapper {
+    background-image: url(./Iphone13-Images//IphoneLarge.jpg);
+    min-height: 692px;
+  } */
+/* } */

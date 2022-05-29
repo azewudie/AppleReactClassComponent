@@ -1,0 +1,83 @@
+.white {
+  color: #fff;
+}
+.right-side-container {
+  min-height: 515px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.right-side-wrapper {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.fourth-heghlight-wrapper .right-side-wrapper .right-side-container {
+  /* background-image: url("./AppleTrad-Image/promo_trade.jpg");
+  background-color: #165ca9;
+  background-position: bottom;
+  padding-top: 35px;
+  margin: 0 0 10px 0;
+  background-size: auto; */
+  background-color: #f5f5f7;
+}
+.trade-wrapper h3 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 400;
+  padding-top: 20px;
+  padding-left: 40%;
+  color: #c55c29;
+}
+.trade-wrapper h1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 400;
+  /* padding-left: 40%; */
+  color: black;
+}
+.links-wrapper.white li a {
+  color: #fff;
+}
+.fourth-heghlight-wrapper .right-side-wrapper .title-wraper {
+  max-width: 380px;
+}
+.links-wrapper {
+  padding: 15px 0;
+}
+.links-wrapper ul li {
+  display: block;
+  padding-right: 20px;
+}
+.links-wrapper ul li a {
+  color: #06c;
+  text-decoration: none;
+  font-size: 21px;
+}
+.links-wrapper ul li a:hover {
+  color: #000;
+}
+.links-wrapper ul li a:after {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f105";
+  padding-left: 10px;
+}
+
+.TradeImage-wrapper {
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  height: auto;
+}
+
+@media (min-width: 768px) {
+  .fourth-heghlight-wrapper .right-side-wrapper .right-side-container {
+    margin: 10px 10px 5px 5px;
+  }
+}

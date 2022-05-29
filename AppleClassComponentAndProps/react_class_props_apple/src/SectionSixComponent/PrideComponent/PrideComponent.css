@@ -1,0 +1,53 @@
+a {
+  color: #06c;
+}
+.pride-wrapper {
+  min-height: 515px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  background-color: #fbfbfd;
+  margin: 5px;
+}
+.pride-wrapper {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.trade-wrapper h3 {
+  display: flex;
+  padding-top: 50px;
+  justify-content: start !important;
+  padding-left: 50%;
+  text-align: center;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 1.15em;
+  letter-spacing: -0.04em;
+  color: black;
+}
+
+.pride-logo-wrapper img {
+  height: 60px !important;
+}
+.links-wrapper {
+  padding: 15px 0;
+}
+.links-wrapper ul li {
+  display: inline-block;
+  padding-right: 20px;
+}
+.links-wrapper ul li a {
+  color: #06c;
+  text-decoration: none;
+  font-size: 21px;
+}
+.links-wrapper ul li a:hover {
+  color: #000;
+}
+.links-wrapper ul li a:after {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f105";
+  padding-left: 10px;
+}

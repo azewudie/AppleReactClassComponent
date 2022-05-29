@@ -1,0 +1,35 @@
+html {
+  overflow: hidden;
+  height: 100%;
+}
+body {
+  overflow: auto;
+  height: 100%;
+}
+.nav-wrapper {
+  background: rgba(0, 0, 0, 0.8);
+  font-size: 0.7em;
+  font-weight: 300;
+  color: white;
+  height: 50px;
+}
+.container-wrapper {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+.logImage img {
+  max-width: 100%;
+}
+.logImage a {
+  color: white !important;
+}
+.logImage {
+  padding-bottom: 5px !important;
+  padding-right: 50px !important;
+}
+.navbar-toggler {
+  color: #fff;
+}
+.Header-Link-wrapper {
+  color: white !important;
+}

@@ -1,0 +1,47 @@
+a {
+  color: #06c;
+}
+
+.fifth-heghlight-wrapper .left-side-wrapper .left-side-container {
+  background-image: url("./ApplePrivacy-Images/privacy.jpg");
+  background-color: #000;
+  padding-top: 35px;
+  margin: 0 0 10px 0;
+  background-size: cover;
+}
+.fifth-heghlight-wrapper .description-wraper {
+  max-width: 450px;
+  margin: 7px auto;
+}
+.learn-more-privacy-wrapper a {
+  text-decoration: none;
+  font-size: 0.85rem;
+  color: white !important;
+}
+.learn-more-privacy-wrapper a:after {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f105";
+  padding-left: 15px;
+}
+.left-side-container {
+  min-height: 515px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.left-side-wrapper {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.Privacy-wrapper p {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: white;
+}
+@media (min-width: 768px) {
+  .fifth-heghlight-wrapper .left-side-wrapper .left-side-container {
+    margin: 5px 5px 5px 10px;
+  }
+}
